@@ -1,0 +1,53 @@
+.faq-tab{
+    height:200px;
+    width:840px;
+    float:right;
+    margin-top: -10px;
+}
+
+.inner-addon  {
+    position: relative;
+    float:right;
+    width: 600px;
+    margin: 10px 50px 0 0;
+}
+.faq-row-1 , .faq-row-2 {
+    width:600px;
+    float:right;
+    padding:10px;
+    margin-right:-60px;
+}
+
+.faq-icon {
+    margin: 11px 131px 0 0;
+    color: #0D61B1;
+    padding: 13px 13px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 117px;
+    -moz-box-shadow: 0px 0px 2px #0D61B1;
+    -webkit-box-shadow: 0px 0px 2px #0D61B1;
+    box-shadow: 0px 0px 2px #0D61B1;
+
+}
+.span:hover {
+    background-color: #ededed;
+}
+.search-input {
+    border-radius: 30px;
+}
+
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.right-addon .glyphicon {
+    left: 0;
+    color: #3996ee;
+}
+
+.right-addon input { padding-left: 30px; }
+

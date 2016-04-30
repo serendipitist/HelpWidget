@@ -2,18 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>jQuery Projects</title>
+    <title>Help Widget</title>
     <link rel="stylesheet" href="bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href= "css/main.css">
+    <link rel="stylesheet" href= "css/chat.css">
+    <link rel="stylesheet" href= "css/faq.css">
 </head>
 <body>
+<button class=" help-btn btn btn-default">Help Me !</button>
+<div class="widget-container container">
+    <ul class="tabs">
+        <li class="tab-cancel"><p><span class="glyphicon glyphicon-remove"></span></p></li>
+        <li class="tab-link current" data-tab="tab-1"><p><span class="custom-icon fa fa-envelope"></span>Mail Us</p>
+        </li>
+        <li  class="tab-link" data-tab="tab-2"><p><span class="custom-icon glyphicon glyphicon-search"></span>FAQ</p>
+        </li>
+        <li  class="tab-link " data-tab="tab-3"><p><span class="custom-icon glyphicon glyphicon-comment"></span>Live Chat</p>
+    </ul>
+    <div id="tab-1" class=" mail-tab tab-content current ">
+        <div id="messages" class="hide" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+            <div id="messages_content"></div>
+        </div>
+        <form name="mailForm" role="form" class="mail-form">
+            <div class="form-group">
+                <p id="email-label"><b>TO </b> <span>support@recruiterbox.com </span></p>
+            </div>
+            <div class="form-group">
+                <input type="text" class=" form-control" name="subject" required placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="comment" name="message" required placeholder="Message.."></textarea>
+            </div>
+            <div class="form-group attachment">
+                <p><span class="custom-paperclip glyphicon glyphicon-paperclip"></span>Attach files</p>
+            </div>
+
+            <button type="submit" class=" send-btn btn btn-primary">Send Mail</button>
+        </form>
+    </div>
+    <div id="tab-2" class="faq-tab tab-content">
+        <div class="inner-addon right-addon">
+            <i class="glyphicon glyphicon-search"></i>
+            <input type="text" class="search-input form-control" placeholder="Search" />
+        </div>
+        <div class="faq-row-1">
+            <span class="faq-icon glyphicon glyphicon-folder-close"></span>
+            <span>Man</span>
+
+            <span class="faq-icon glyphicon glyphicon-pushpin"></span>
+            <span class="faq-icon glyphicon glyphicon-user"></span>
+        </div>
+        <div class="faq-row-2">
+            <span class="faq-icon glyphicon glyphicon-user"></span>
+            <span class="faq-icon glyphicon glyphicon-folder-close"></span>
+            <span class="faq-icon glyphicon glyphicon-folder-close"></span>
+        </div>
+        </div>
+    <div id="tab-3" class="Chat-tab tab-content">
+    <div id="fixed">
+        <div class="fixedHeader">Recruiterbox Chat Support</div>
+        <div class="fixedContent">
+            <div class="chat-body clearfix">
+                <div class="header">
+                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                    <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare
+                    dolor, quis ullamcorper ligula sodales.
+                </p>
+            </div>
+            </li>
+            <li class="left clearfix"><span class="chat-img pull-left">
+                            <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+                        </span>
 
 
+        </div>
+        <div class="chatbox">
+            <textarea class="userinput" style="height: 16px; " placeholder="Type your message here."></textarea>
+        </div>
+    </div>
+
+    </div>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-<script>
-    $( "#projects" ).accordion();
-</script>
+<script src="js/widget.js" type="text/javascript"></script>
+<script src="js/validateform.js" type="text/javascript"></script>
+<script src="js/chat.js" type="text/javascript"></script>
 </body>
 </html>
