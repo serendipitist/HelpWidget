@@ -1,10 +1,10 @@
-.chat-tab{
+.chat-tab {
     width: 470px;
-    height:auto;
+    height: auto;
     padding-bottom: 10px;
-    -webkit-box-shadow: 5px 6px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    5px 6px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         -2px -1px 11px 3px #ccc;
+    -webkit-box-shadow: 5px 6px 3px 3px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 5px 6px 3px 3px #ccc; /* Firefox 3.5 - 3.6 */
+    box-shadow: -2px -1px 11px 3px #ccc;
 }
 .chat li.right .chat-body
 {
@@ -20,10 +20,13 @@
 .chat-box {
     background: none repeat scroll 0 0 #ffffff;
     margin: 0 auto;
+    margin-top:10px;
     width: 400px;
     height: 300px;
     overflow: auto;
 }
+
+
 
 .fixedHeader {
     background:  #003e60;
@@ -55,7 +58,7 @@
     display:block;
     resize:none;
     padding: 4px;
-    margin-left:25px;
+    margin:0 0 20px 25px;
 }
 
 .messages{

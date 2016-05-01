@@ -21,3 +21,4 @@ Chatbox.focus(function(){
     }
 
 });
+

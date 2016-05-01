@@ -15,11 +15,11 @@
     width:600px;
     float:right;
     padding:10px;
-    margin-right:-60px;
+    margin-right:5px;
 }
 
 .faq-icon {
-    margin: 11px 131px 0 0;
+    margin: 11px 108px 0 0;
     color: #0D61B1;
     padding: 13px 13px;
     display: inline-block;
@@ -29,6 +29,7 @@
     -moz-box-shadow: 0px 0px 2px #0D61B1;
     -webkit-box-shadow: 0px 0px 2px #0D61B1;
     box-shadow: 0px 0px 2px #0D61B1;
+    text-align: center;
 
 }
 .span:hover {
@@ -60,6 +61,11 @@
     border-left: 1px solid #ABA3A3;
 }
 
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; }
+.column-left{ float:left; width: 33%;  margin-top: 10px; text-align: center; color: #0D61B1;}
+
+.column-right{ float: right; width: 33%;margin-top: 10px ; text-align: center; color:#0D61B1;}
+.column-center{ display: inline-block; width: 33%; margin-top: 10px;text-align: center;color:#0D61B1; }
+
+.column-left:hover , .column-center:hover , .column-right:hover{
+    background-color: #ededed;
+}
