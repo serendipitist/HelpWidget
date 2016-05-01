@@ -3,6 +3,7 @@ body{
     line-height: 1.6;
     font-weight:400;
     font-size: 14px;
+    font-family: "Open Sans", "Helvetica Neue";
 }
 .help-btn {
     position: fixed;
@@ -10,11 +11,11 @@ body{
     right: 0;
     margin:50px;
     border-radius: 35px;
-    border-color: #337AB7;
+    border-color: #0E598B;;
     color: #337AB7;
 }
 .help-btn:hover {
-    background-color: #008CBA;
+    background-color: #0E598B;;
     color: white;
 }
 
@@ -42,6 +43,10 @@ b{
     display:none;
 }
 
+.tabs {
+    text-decoration: none;
+}
+
 li.current{
     z-index: 3;
 }
@@ -51,7 +56,7 @@ li.current{
     margin: 0;
     background: none;
     position: relative;
-    text-decoration: none;
+    list-style-type: none;
 }
 
 ul.tabs .tab-cancel p{
@@ -61,7 +66,6 @@ ul.tabs .tab-cancel p{
     line-height:28px;
     display: inline-block;
     padding: 0;
-    text-decoration: none;
     margin-left: -111px;
     text-align: center;
     font-size: 12px;
@@ -75,8 +79,7 @@ ul.tabs li p {
     line-height:28px;
     display: inline-block;
     padding: 0;
-    text-decoration: none;
-    margin-left: -30px;
+    margin-left: -34px;
     text-align: center;
      width: 140px;
     font-size: 12px;
@@ -102,7 +105,7 @@ ul.tabs li.current p  {
     margin-right:8px;
 }
 .attachment {
-    color: #095DAD;
+    color: #0E598B;
     cursor: pointer;
 }
 
@@ -115,9 +118,10 @@ ul.tabs li.current p  {
     float:right;
     max-width: 100px;
     margin-top:-37px;
+    background-color: #0E598B;;
 }
 .mail-tab {
-    padding: 14px;
+    padding: 12px;
     width: 470px;
     height:auto;
     -webkit-box-shadow: 5px 6px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
