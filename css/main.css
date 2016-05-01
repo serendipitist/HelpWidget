@@ -18,7 +18,7 @@ body{
     color: white;
 }
 
-#email-label{
+#email-label {
     border: 1px transparent;
     background-color: #cacaca;
     padding:5px;
@@ -82,7 +82,7 @@ ul.tabs li p {
     font-size: 12px;
 }
 
-ul.tabs li.current p {
+ul.tabs li.current p  {
     border-bottom-color: #dddddd;
     color: #222;
 }
@@ -125,8 +125,8 @@ ul.tabs li.current p {
     box-shadow:         -2px -1px 11px 3px #ccc;
 }
 
-textarea.form-control {
-    height:100px;!important;
+textarea {
+    height:140px;!important;
 }
 
 .glyphicon-remove {

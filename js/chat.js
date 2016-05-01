@@ -13,7 +13,7 @@ Chatbox.focus(function(){
 }).keyup(function(e){
     var code = (e.keyCode ? e.keyCode : e.which);
     if(code==13){
-        $('.fixedContent').append("<div class='userwrap'><span class='user'>"+user+"</span><span class='messages'>"+$(this).val()+"</span></div>");
+        $('.fixedContent').append("<span class=' user-side messages pull-right'><span class='user'>"+user+"</span>"+$(this).val()+"</span><div class='clear'></div>");
         event.preventDefault();
 
         $(".fixedContent").scrollTop($(".fixedContent").height());

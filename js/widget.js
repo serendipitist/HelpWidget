@@ -1,6 +1,5 @@
 $(document).ready(function(){
-
-    $('ul.tabs li').click(function(){
+    $('ul.tabs li + li').click(function(){
         var tab_id = $(this).attr('data-tab');
 
         $('ul.tabs li').removeClass('current');
@@ -8,20 +7,13 @@ $(document).ready(function(){
 
         $(this).addClass('current');
         $("#"+tab_id).addClass('current');
-    })
-
-});
-
-$(document).ready(function(event) {
+    });
     $('.tab-cancel p').on('click', function(event){
         $('.widget-container').fadeOut('slow', function(event){
-            $('.widget-container').remove();
+            $('.widget-container').hide();
         });
     });
-});
-
-$(document).ready(function() {
     $('.help-btn').click(function() {
-        $('.widget-container').slideToggle("fast");
+        $('.widget-container').toggle();
     });
 });

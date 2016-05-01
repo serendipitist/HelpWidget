@@ -1,6 +1,6 @@
 .faq-tab{
-    height:200px;
-    width:840px;
+    height:300px;
+    width:1100px;
     float:right;
     margin-top: -10px;
 }
@@ -51,3 +51,15 @@
 
 .right-addon input { padding-left: 30px; }
 
+
+.divider {
+    position:absolute;
+    left: -40%;
+    top:10%;
+    bottom: 0;
+    border-left: 1px solid #ABA3A3;
+}
+
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
