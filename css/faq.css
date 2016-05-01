@@ -3,24 +3,27 @@
     width:1100px;
     float:right;
     margin-top: -10px;
+    -webkit-box-shadow: 5px 6px 3px 3px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow: 5px 6px 3px 3px #ccc; /* Firefox 3.5 - 3.6 */
+    box-shadow: -2px -1px 11px 3px #ccc;
 }
 
 .inner-addon  {
     position: relative;
     float:right;
-    width: 600px;
-    margin: 10px 50px 0 0;
+    width: 580px;
+    margin: 12px 40px 0 0;
 }
 .faq-row-1 , .faq-row-2 {
-    width:600px;
+    width:640px;
     float:right;
     padding:10px;
-    margin-right:5px;
+    margin-right:20px;
 }
 
 .faq-icon {
-    margin: 11px 108px 0 0;
-    color: #0D61B1;
+    margin: 11px 108px 0 76px;
+    color: #0E598B;
     padding: 13px 13px;
     display: inline-block;
     -moz-border-radius: 100px;
@@ -47,7 +50,7 @@
 
 .right-addon .glyphicon {
     left: 0;
-    color: #3996ee;
+    color: #0E598B;
 }
 
 .right-addon input { padding-left: 30px; }
@@ -56,16 +59,27 @@
 .divider {
     position:absolute;
     left: -40%;
-    top:10%;
+    top:9%;
     bottom: 0;
     border-left: 1px solid #ABA3A3;
 }
 
-.column-left{ float:left; width: 33%;  margin-top: 10px; text-align: center; color: #0D61B1;}
+.column-left{ float:left; width: 33%;  margin-top: 10px; text-align: center; color: #0E598B;}
 
-.column-right{ float: right; width: 33%;margin-top: 10px ; text-align: center; color:#0D61B1;}
-.column-center{ display: inline-block; width: 33%; margin-top: 10px;text-align: center;color:#0D61B1; }
+.column-right{ float: right; width: 33%;margin-top: 10px ; text-align: center; color:#0E598B;}
+.column-center{ display: inline-block; width: 33%; margin-top: 10px;text-align: center;color:#0E598B; }
 
 .column-left:hover , .column-center:hover , .column-right:hover{
     background-color: #ededed;
+}
+
+.column-right p ,.column-center p , .column-left p{
+    padding-top: 10px;
+}
+
+.faq-left{
+    float:left;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
 }
