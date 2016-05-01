@@ -1,24 +1,25 @@
-.faq-tab{
-    height:300px;
-    width:1100px;
-    float:right;
+.faq-tab {
+    height: 300px;
+    width: 1100px;
+    float: right;
     margin-top: -10px;
     -webkit-box-shadow: 5px 6px 3px 3px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 5px 6px 3px 3px #ccc; /* Firefox 3.5 - 3.6 */
     box-shadow: -2px -1px 11px 3px #ccc;
 }
 
-.inner-addon  {
+.inner-addon {
     position: relative;
-    float:right;
+    float: right;
     width: 580px;
     margin: 12px 40px 0 0;
 }
-.faq-row-1 , .faq-row-2 {
-    width:640px;
-    float:right;
-    padding:10px;
-    margin-right:20px;
+
+.faq-col-1 {
+    width: 640px;
+    float: right;
+    padding: 10px;
+    margin-right: 20px;
 }
 
 .faq-icon {
@@ -29,57 +30,95 @@
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 117px;
-    -moz-box-shadow: 0px 0px 2px #0D61B1;
+    -moz-box-shadow: 0 0 2px #0D61B1;
     -webkit-box-shadow: 0px 0px 2px #0D61B1;
-    box-shadow: 0px 0px 2px #0D61B1;
+    box-shadow: 0 0 2px #0D61B1;
     text-align: center;
 
 }
-.span:hover {
-    background-color: #ededed;
+
+.faq-icon:hover {
+    background-color: #EDEDED;
 }
+
 .search-input {
     border-radius: 30px;
 }
 
-.inner-addon .glyphicon {
+.inner-addon .search-icon {
     position: absolute;
     padding: 10px;
     pointer-events: none;
 }
 
-.right-addon .glyphicon {
+.search-bar .search-icon {
     left: 0;
     color: #0E598B;
 }
 
-.right-addon input { padding-left: 30px; }
-
+.search-bar input {
+    padding-left: 30px;
+}
 
 .divider {
-    position:absolute;
+    position: absolute;
     left: -40%;
-    top:8%;
+    top: 8%;
     bottom: 0;
     border-left: 1px solid #ABA3A3;
 }
 
-.column-left{ float:left; width: 33%;  margin-top: 10px; text-align: center; color: #0E598B;}
-
-.column-right{ float: right; width: 33%;margin-top: 10px ; text-align: center; color:#0E598B;}
-.column-center{ display: inline-block; width: 33%; margin-top: 10px;text-align: center;color:#0E598B; }
-
-.column-left:hover , .column-center:hover , .column-right:hover{
-    background-color: #ededed;
+.column-left {
+    float: left;
+    width: 33%;
+    margin-top: 3px;
+    text-align: center;
+    color: #0E598B;
 }
 
-.column-right p ,.column-center p , .column-left p{
+.column-right {
+    float: right;
+    width: 33%;
+    margin-top: 3px;
+    text-align: center;
+    color: #0E598B;
+}
+
+.column-center {
+    display: inline-block;
+    width: 33%;
+    margin-top: 3px;
+    text-align: center;
+    color: #0E598B;
+}
+
+.column-left:hover, .column-center:hover, .column-right:hover {
+    background-color: #EDEDED;
+}
+
+.column-right p, .column-center p, .column-left p {
     padding-top: 10px;
+
 }
 
-.faq-left{
-    float:left;
+.faq-left {
+    float: left;
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
+    color: black;
+}
+
+.mail-icon{
+    margin-left: 10px;
+}
+
+.faq-left button {
+    background-color :#EDEDED;
+    color: gray;
+    margin: 10px;
+}
+.faq-left p {
+    color:gray;
+    margin: 5px;
 }

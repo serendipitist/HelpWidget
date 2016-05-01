@@ -119,6 +119,7 @@ ul.tabs li.current p  {
     max-width: 100px;
     margin-top:-37px;
     background-color: #0E598B;;
+    padding: 6px;
 }
 .mail-tab {
     padding: 12px;
@@ -130,7 +131,7 @@ ul.tabs li.current p  {
 }
 
 textarea {
-    height:140px;!important;
+    height:90px !important;
 }
 
 .glyphicon-remove {

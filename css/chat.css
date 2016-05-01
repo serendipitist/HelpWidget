@@ -1,6 +1,6 @@
-.chat-tab {
-    width: 470px;
+.chat-tab-content {
     height: auto;
+    width: 470px;
     padding-bottom: 10px;
     -webkit-box-shadow: 5px 6px 3px 3px #ccc; /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow: 5px 6px 3px 3px #ccc; /* Firefox 3.5 - 3.6 */
@@ -9,146 +9,134 @@
 
 .chat-box {
     margin: 0 auto;
-    margin-top:20px;
+    margin-top: 20px;
     width: 400px;
     height: 300px;
     overflow: auto;
 }
 
 .fixedHeader {
-    background:none repeat scroll 0 0 #003e60;
-    border: 1px solid #003e60;
+    background: none repeat scroll 0 0 #003E60;
+    border: 1px solid #003E60;
     border-bottom: none;
     color: #fff;
     height: 40px;
     margin: 0 auto;
     padding: 5px;
     width: 400px;
-    font-weight:700;
-    font-size:15px;
+    font-weight: 700;
+    font-size: 15px;
 }
 
 .fixedContent {
-    background: none repeat scroll 0 0 #ffffff;
-    border-bottom: 1px solid #b2b2b2;
+    background: none repeat scroll 0 0 #fff;
+    border-bottom: 1px solid #B2B2B2;
     margin: 0 auto;
     width: 400px;
-    height:300px;
+    height: 300px;
     overflow: auto;
 }
 
-
-.userinput{
+.userinput {
+    height: 40px !important;
     width: 400px;
-    height:30px;!important;
-    outline:none;
-    display:block;
-    resize:none;
+    outline: none;
+    display: block;
+    resize: none;
     padding: 4px;
     text-transform: capitalize;
-    margin:0 0 20px 25px;
+    margin: 0 0 20px 25px;
 }
 
-.userwrap{
-    position:relative;
+.user {
+    padding: 5px;
+    font-size: 12px;
+    color: #888;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: -50px;
 }
 
-.user{
-    padding: 5px ;
-    font-size:12px;
-    color:#888;
-    font-weight:700;
-    position:absolute;
-    left:0; top:0;
-}
-
-.cust-support
-{
+.cust-support {
     float: left;
-    margin:10px 0 0 15px;
+    margin: 10px 0 0 15px;
     display: inline-block;
     max-width: 200px;
     padding: 5px;
     border-radius: 4px;
     position: relative;
-    border:1px solid gray;
+    border: 1px solid gray;
     background-color: aliceblue;
 }
 
-.cust-support-icon
-{
+.cust-support-icon {
     float: left;
-    margin:10px 0 0 20px;
+    margin: 10px 0 0 20px;
     text-decoration: none;
 }
 
-.cust-support:after
-{
+.cust-support:after {
     content: "";
     display: inline-block;
     position: absolute;
     left: -8.5px;
     top: 7px;
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     border-right: 8px solid aliceblue;
 }
 
-.cust-support:before
-{
+.cust-support:before {
     content: "";
     display: inline-block;
     position: absolute;
     left: -9px;
     top: 7px;
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     border-right: 8px solid black;
 }
 
-.user-side:after
-{
+.user-side:after {
     content: "";
     display: inline-block;
     position: absolute;
     right: -8.4px;
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
 }
 
-.user-side:before
-{
+.user-side:before {
     content: "";
     display: inline-block;
     position: absolute;
     right: 80px;
-    height: 0px;
-    width: 0px;
+    height: 0;
+    width: 0;
 }
 
-.user-side
-{
+.user-side {
     float: right;
     display: inline-block;
     max-width: 200px;
     padding: 5px;
     border-radius: 4px;
     position: relative;
-    background-color: #ededed;
+    background-color: #EDEDED;
     margin: 12px;
-    border : 1px solid gray;
-    text-transform:capitalize;
+    border: 1px solid gray;
+    text-transform: capitalize;
 }
 
-.clear
-{
+.clear {
     clear: both;
 }
-.user {
-    margin-left:-50px;
-}
+
+
 
